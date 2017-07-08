@@ -11,7 +11,7 @@ Suppose that we have a book, in which each page make reference for the previous 
 | Book Ordering | Block Ordering |
 |--------------|---------------|
 | Page 1,2,3,4,5 | Block "k98ugO" built on "48m775", Block "m448utO" built on "88m795", Block "5l8ugO" built on "87m885" | 
-| Implicit that the page buids on the pages whose umber is one less(page 5 builds on page 4)(5 minus 1) | 48m775, 88m795, 87m885 represent fingerprints or hashes of the blocks.  | 
+| Implicit that the page buids on the pages whose umber is one less(page 5 builds on page 4)(5 minus 1) | "48m775", "88m795", "87m885" represent fingerprints or hashes of the blocks.  | 
 
 ![Blocks in chain refer to previous blocks like books]({{http://www.patternics.com}}/blockchain/image/bl1.JPG)
 
