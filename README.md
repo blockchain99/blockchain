@@ -1,5 +1,5 @@
 # blockchain
-Blockchain course course program and lecture, some images and articles are refereced from other web sites. Ethreum smart contract, solidity, Bitcoin technology.
+Blockchain lecture for ethreum, bitcoin programming, some images and articles are refereced from other web sites. Ethreum smart contract, solidity, Bitcoin technology.
 ### Installation and usage
 Program is written in java, solidity. it one may need solidity shoulde be installed ( https://docs.continuum.io/anaconda/install ) or install python 2.7 and then install Numpy, Scipy, Pandas, matplotlib,jupyter manually as follows.
 #### Remix
