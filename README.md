@@ -7,15 +7,17 @@ Blockchain lecture for ethreum, bitcoin programming, some images and articles ar
 Blockchain is a data structure, which is arrange of data in computer memory, for example, Excel sheet, Google Doc and PDF files.
 Suppose that we have a book, in which each page make reference for the previous page through a page number one less than a current page number. We can detect and identify the removal of a page when a page has been removed through the page number.
 
+| Book Ordering | Block Ordering |
+|--------------|---------------|
+| Page 1,2,3,4,5 | Block k98ugO built on 48m775, Block m448utO built on 88m795, Block 5l8ugO built on 87m885 | 
+| Implicit that the page buids on the pages whose umber is one less(page 5 builds on page 4)(5 minus 1) | 48m775, 88m795, 87m885 represent fingerprints or hashes of the blocks.  | 
+
 ![Blocks in chain refer to previous blocks like books]({{http://www.patternics.com}}/blockchain/image/bl1.JPG)
 
 Also, we can detect the alteration of contents of specific page through page number.
 >If anyone changes the content of the page,  then the next page number will not match. 
 >since the page number is produced by crunching the content of the previous page.    
-| Book Ordering | Block Ordering |
-|--------------|---------------|
-| Page 1,2,3,4,5 | Block k98ugO built on 48m775, Block m448utO built on 88m795, Block 5l8ugO built on 87m885 | 
-| Implicit that the page buids on the pages whose umber is one less(page 5 builds on page 4)(5 minus 1) | 48m775, 88m795, 87m885 represent fingerprints or hashes of the blocks.  | 
+
 ![Blocks Detailed]({{http://www.patternics.com}}/blockchain/image/bl2.JPG)
 
 Blockchain is in same shooses, each block is built on top of the recent block and use its
@@ -41,11 +43,6 @@ miners using a contract etc.
     </li>
   {% endfor %}
 </ul>
-
-
-
-
-
 
 ## Installation and usage
 Program is written in java, solidity. it one may need solidity shoulde be installed ( https://docs.continuum.io/anaconda/install ) or install python 2.7 and then install Numpy, Scipy, Pandas, matplotlib,jupyter manually as follows.
