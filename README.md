@@ -4,11 +4,16 @@ Blockchain lecture for ethreum, bitcoin programming, some images and articles ar
 ### What is Blockchain?
 #### Blockchain is a decentralized distributed ledger (data structure) where data is being stored inside blocks in form of transactions
 
-Blockchain is a data structure, which is arrange of data in computer memory, for example Excel sheet, Google Doc and PDF files.
+Blockchain is a data structure, which is arrange of data in computer memory, for example, Excel sheet, Google Doc and PDF files.
 Suppose that we have a book, in which each page make reference for the previous page through a page number one less than a current page number. We can detect and identify the removal of a page when a page has been removed through the page number.
 
+![Blocks in chain refer to previous blocks like books]({{http://www.patternics.com}}/blockchain/image/bl1.JPG)
+
 Also, we can detect the alteration of contents of specific page through page number.
-If anyone changes the content of the page,  then the next page number will not match if we try to generate it using altered page content since the page number is produced by crunching the content of the previous page.    
+>If anyone changes the content of the page,  then the next page number will not match. 
+>since the page number is produced by crunching the content of the previous page.    
+
+![Blocks Detailed]({{http://www.patternics.com}}/blockchain/image/bl2.JPG)
 
 Blockchain is in same shooses, each block is built on top of the recent block and use its
 previous block’s content as a signature. Building a block & adding it in the Blockchain is the task of the miner nodes
@@ -34,7 +39,7 @@ miners using a contract etc.
   {% endfor %}
 </ul>
 
-![Blocks in chain refer to previous blocks like books]({{http://www.patternics.com}}/blockchain/image/bl1.JPG)
+
 
 | Book Ordering | Block Ordering |
 |--------------|---------------|
