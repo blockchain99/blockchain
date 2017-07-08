@@ -12,7 +12,10 @@ Suppose that we have a book, in which each page make reference for the previous 
 Also, we can detect the alteration of contents of specific page through page number.
 >If anyone changes the content of the page,  then the next page number will not match. 
 >since the page number is produced by crunching the content of the previous page.    
-
+| Book Ordering | Block Ordering |
+|--------------|---------------|
+| Page 1,2,3,4,5 | Block k98ugO built on 48m775, Block m448utO built on 88m795, Block 5l8ugO built on 87m885 | 
+| Implicit that the page buids on the pages whose umber is one less(page 5 builds on page 4)(5 minus 1) | 48m775, 88m795, 87m885 represent fingerprints or hashes of the blocks.  | 
 ![Blocks Detailed]({{http://www.patternics.com}}/blockchain/image/bl2.JPG)
 
 Blockchain is in same shooses, each block is built on top of the recent block and use its
@@ -41,10 +44,7 @@ miners using a contract etc.
 
 
 
-| Book Ordering | Block Ordering |
-|--------------|---------------|
-| Page 1,2,3,4,5 | Block k98ugO built on 48m775, Block m448utO built on 88m795, Block 5l8ugO built on 87m885 | 
-| Implicit that the page buids on the pages whose umber is one less(page 5 builds on page 4)(5 minus 1) | 48m775, 88m795, 87m885 represent fingerprints or hashes of the blocks.  | 
+
 
 
 ## Installation and usage
