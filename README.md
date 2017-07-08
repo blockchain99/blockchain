@@ -1,8 +1,8 @@
-# blockchain
+# Blockchain
 Blockchain lecture for ethreum, bitcoin programming, some images and articles are refereced from other web sites. Ethreum smart contract, solidity, Bitcoin technology.
 
-#### What is Blockchain?
-##### Blockchain is a decentralized distributed ledger (data structure) where data is being stored inside blocks in form of transactions
+### What is Blockchain?
+#### Blockchain is a decentralized distributed ledger (data structure) where data is being stored inside blocks in form of transactions
 
 Blockchain is a data structure, which is arrange of data in computer memory, for example Excel sheet, Google Doc and PDF files.
 Suppose that we have a book, in which each page make reference for the previous page through a page number one less than a current page number. We can detect and identify the removal of a page when a page has been removed through the page number.
@@ -34,7 +34,7 @@ miners using a contract etc.
   {% endfor %}
 </ul>
 
-![Blocks in chain refer to previous blocks like books]({{ http://www.patternics.com }}/blockchain/image/"bl1.jpg")
+![Blocks in chain refer to previous blocks like books]({{http://www.patternics.com}}/blockchain/image/bl1.JPG)
 
 | Book Ordering | Block Ordering |
 |--------------|---------------|
