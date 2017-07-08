@@ -1,6 +1,3 @@
-# Blockchain
-Blockchain lecture for ethreum, bitcoin programming, some images and articles are refereced from other web sites. Ethreum smart contract, solidity, Bitcoin technology.
-
 ### What is Blockchain?
 #### Blockchain is a decentralized distributed ledger (data structure) where data is being stored inside blocks in form of transactions
 
