@@ -35,7 +35,7 @@ some reward (25 BTC in case of Bitcoin Blockchain)
 miners using a contract etc.
 
 ### What is Smart Contract?
-### Smart contract is a term used to describe computer program code that is capable of facilitating, executing, and enforcing the negotiation or performance of an agreement (i.e. contract) using blockchain technology.
+#### Smart contract is a term used to describe computer program code that is capable of facilitating, executing, and enforcing the negotiation or performance of an agreement (i.e. contract) using blockchain technology.
 
 * The entire process is automated can act as a complement, or substitute, for legal contracts, where the terms of the smart contract are recorded in a computer language as a set of instructions.
 
