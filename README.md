@@ -39,6 +39,20 @@ miners using a contract etc.
 
 * The entire process is automated can act as a complement, or substitute, for legal contracts, where the terms of the smart contract are recorded in a computer language as a set of instructions.
 
+### What is Ethereum Virtual Machine
+* Ethereum is a programmable Blockchain
+* It allows user to create their own operations
+* Ethereum in the narrow sense refers to a suite of protocols that define a platform for decentralized applications.
+* At the heart of it is the Ethereum Virtual Machine (“EVM”), which can execute code of arbitrary algorithmic complexity.
+* In computer science terms, Ethereum is “Turing complete”.
+* Developers can create applications that run on the EVM using friendly programming languages modelled on existing languages like JavaScript and Python.
+
+
+
+
+
+
+
 
 ## Installation and usage
 Program is written in java, solidity. it one may need solidity shoulde be installed ( https://docs.continuum.io/anaconda/install ) or install python 2.7 and then install Numpy, Scipy, Pandas, matplotlib,jupyter manually as follows.
