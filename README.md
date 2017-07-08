@@ -39,7 +39,7 @@ miners using a contract etc.
 
 * The entire process is automated can act as a complement, or substitute, for legal contracts, where the terms of the smart contract are recorded in a computer language as a set of instructions.
 
-### What is Ethereum Virtual Machine
+### What is Ethereum Virtual Machine ?
 * Ethereum is a programmable Blockchain
 * It allows user to create their own operations
 * Ethereum in the narrow sense refers to a suite of protocols that define a platform for decentralized applications.
@@ -47,7 +47,14 @@ miners using a contract etc.
 * In computer science terms, Ethereum is “Turing complete”.
 * Developers can create applications that run on the EVM using friendly programming languages modelled on existing languages like JavaScript and Python.
 
-
+### What is SOLIDITY?
+* High-level object-oriented language for smart contratcs
+* Solidity was initially proposed in August 2014 by Gavin Wood
+* Solidity lets you program on Ethereum, a blockchain-based virtual machine
+* Solidity is a statically typed programming language
+* A Contract programming language that has similarities to Javascript and C
+* Contract-specific features include modifier (guard) clauses, event notifiers for listeners, and custom global variables.
+* Solidity is compiled to bytecode that is executable on the EVM
 
 
 
