@@ -5,6 +5,7 @@ Blockchain lecture for ethreum, bitcoin programming, some images and articles ar
 #### Blockchain is a decentralized distributed ledger (data structure) where data is being stored inside blocks in form of transactions
 
 Blockchain is a data structure, which is arrange of data in computer memory, such as Excel sheet, Google Doc and PDF files.
+
 Suppose that we have a book, in which each page make reference for the previous page through a page number one less than a current page number. We can detect and identify the removal of a page when a page has been removed through the page number.
 
 | Book Ordering | Block Ordering |
