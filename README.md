@@ -34,7 +34,7 @@ miners using a contract etc.
   {% endfor %}
 </ul>
 
-![My helpful screenshot]({{ site.url }}/assets/screenshot.jpg)
+![Blocks in chain refer to previous blocks like books]({{ http://www.patternics.com }}/blockchain/image/bl1.jpg)
 
 | Book Ordering | Block Ordering |
 |--------------|---------------|
