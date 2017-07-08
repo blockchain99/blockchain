@@ -15,11 +15,14 @@ previous block’s content as a signature. Building a block & adding it in the B
 
 * In public Blockchain it is made computationally difficult to add a block to prevent
 attacks.
+
 • Miners try to guess a number in such a way that if it gets crunched with the most
 recent block’s fingerprint than it will create a new fingerprint which will be less that the
 last/most recent block in the Blockchain.
+
 • It takes time & computational power to add a Block in the Blockchain. Hence there is
 some reward (25 BTC in case of Bitcoin Blockchain)
+
 • Private Blockchain can chose other methods to add a block as they can trust the
 miners using a contract etc.
 
