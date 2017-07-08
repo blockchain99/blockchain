@@ -34,13 +34,11 @@ some reward (25 BTC in case of Bitcoin Blockchain)
 * Private Blockchain can chose other methods to add a block as they can trust the
 miners using a contract etc.
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ http://www.patternics.com/blockchain/create_new_cryptocurrency }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+### What is Smart Contract?
+### Smart contract is a term used to describe computer program code that is capable of facilitating, executing, and enforcing the negotiation or performance of an agreement (i.e. contract) using blockchain technology.
+
+* The entire process is automated can act as a complement, or substitute, for legal contracts, where the terms of the smart contract are recorded in a computer language as a set of instructions.
+
 
 ## Installation and usage
 Program is written in java, solidity. it one may need solidity shoulde be installed ( https://docs.continuum.io/anaconda/install ) or install python 2.7 and then install Numpy, Scipy, Pandas, matplotlib,jupyter manually as follows.
