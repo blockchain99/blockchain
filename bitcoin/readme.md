@@ -70,7 +70,7 @@ issuance rate.
 * Are my transactions private? Anonymous? 
 * Solution : Pseudonymity
 
-## Bitcoin mechaniam to validate the legitimacy of coin and preventing double spending
+## How to validate the legitimacy of coin and prevent double spending?
 * Is the coin legit? (proof-of-work) ->  Use of Cryptographic Hashes
 #### Public Key Crypto: Digital Signature
 ![Key pair: public key and private key
