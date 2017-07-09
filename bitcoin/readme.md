@@ -94,7 +94,7 @@ issuance rate.
 #### * Bitcoin prevent the double-spending by Broadcasting to all nodes.
 
 
-##Bitcoin transaction explained
+## Bitcoin transaction explained
 ![Bitcoin transaction]({{http://www.patternics.com}}/blockchain/image/bit_tr2.JPG)
 1. New transactions are broadcast to all nodes.
 2. Each node (miners) collects new transactions into a block.
