@@ -1,7 +1,6 @@
 ## What is Bitcoin?
 ### Bitcoin is Internet of money, a network for propagating value and securing the ownership of digital assets via distributed computation. 
-### It consists of :
-### * Bitcoin consists of:
+###  Bitcoin consists of:
 #### A decentralized peer‐to‐peer network ﴾the bitcoin protocol﴿
 #### A public transaction ledger ﴾the blockchain﴿
 #### A set of rules for independent transaction validation and currency issuance ﴾consensus rules﴿
