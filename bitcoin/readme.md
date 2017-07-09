@@ -82,45 +82,68 @@ issuance rate.
 ## How to validate the legitimacy of coin and prevent double spending?
 ### 1. Is the coin legit? (proof-of-work) ->  Use of Cryptographic Hashes
 
-
-
 ![Cryptographic Hash Functions]({{http://www.patternics.com}}/blockchain/image/collision_res.JPG)
 #### * Bitcoin guarantee the legitimacy of coin (proof-of-work) by Cryptographic Hash Functions.
 * Consistent: hash(X) always yields same result
 * One-way: given Y, hard to find X s.t. hash(X) = Y 
 * Collision resistant: given hash(W) = Z, hard to find X such that hash(X) = Z 
+#### Use of Cryptographic Hashes as Proof-Of-Work
+* We can find transactions validated and previous hash value in Block.
+* Pick a nouce such that H(prev hash, nounce, Tx) < E. E is a variable that the system specifies. Basically, this amounts to finding a hash value who’s leading bits are zero. The work required is exponential in the number of zero bits required.
+* Verification is easy. But proof-of-work is hard. 
+!Proof-Of-Work]({{http://www.patternics.com}}/blockchain/image/pow.JPG)
 
 ### 2. How do you prevent a coin from double-spending? -> Broadcast to all nodes
 #### * Bitcoin prevent the double-spending by Broadcasting to all nodes.
-
+* The only way is to be aware of all transactions.
+* Each node (miner) verifies that this is the first spending of the Bitcoin by the payer.
+* Only when it is verified it generates the proof-of-work and attach it to the current chain. 
 
 ## Bitcoin transaction explained
-![Bitcoin transaction]({{http://www.patternics.com}}/blockchain/image/bit_tr2.JPG)
+![Bitcoin transaction]({{http://www.patternics.com}}/blockchain/image/bit_tr.JPG)
 1. New transactions are broadcast to all nodes.
 2. Each node (miners) collects new transactions into a block.
 3. Each node works on finding a proof-of-work for its block. (Hard to do. Probabilistic. The one to finish early will probably win.)
 4. When a node finds a proof-of-work, it broadcasts the block to all nodes.
 5. Nodes accept the block only if all transactions in it are valid (digital signature checking) and not already spent (check all the transactions).
 6. Nodes express their acceptance by working on creating the next block in the chain, using the hash of the accepted block as the previous hash. 
-
-![Bitcoin transaction]({{http://www.patternics.com}}/blockchain/image/bit_tr.JPG)
+![Bitcoin transaction]({{http://www.patternics.com}}/blockchain/image/bit_tr2.JPG)
+### What if "Tie breaking"(two nodes find a correct block simultaneously.)
+* Tie breaking situation : Two different block chains (or blocks) may satisfy the required proof-of-work.
+![Tie breaking]({{http://www.patternics.com}}/blockchain/image/tie_b.JPG)
+* Solution : Keep both and work on the first one. If one grows longer than the other, take the longer one
 
 * Electronic coin == chain of digital signatures
 * BitCoin transfer: Sign(Previous transaction + New owner’s public key)
 * Anyone can verify (n-1)th owner transferred this to the nth owner. 
 * Anyone can follow the history fo bitcoin transaction.
+### Reverting gets exponentially hard as the chain grows.
+![Tie breaking]({{http://www.patternics.com}}/blockchain/image/reverting.JPG)
+
+### Practical Limitation : At least 10 mins to verify a transaction. 
+* Agree to pay
+* Wait for one block (10 mins) for the transaction to go through.
+* But, for a large transaction ($$$) wait longer. Because if you wait longer it becomes more secure. For large $$$, you wait for six blocks (1 hour).
 
 
-###1. Use of Cryptographic Hashes as Proof-Of-Work
-* We can find transactions validated and previous hash value in Block.
-* Pick a nouce such that H(prev hash, nounce, Tx) < E. E is a variable that the system specifies. Basically, this amounts to finding a hash value who’s leading bits are zero. The work required is exponential in the number of zero bits required.
-* Verification is easy. But proof-of-work is hard. 
-!Proof-Of-Work]({{http://www.patternics.com}}/blockchain/image/pow.JPG)
+### Optimizations
+#### Merkle Tree
+![Merkle Tree]({{http://www.patternics.com}}/blockchain/image/merkle.JPG)
+* Only keep the root hash
+Delete the interior hash values to save disk
+Block header only contains the root hash
+Block header is about 80 bytes
+80 bytes * 6 per/hr * 24 hrs * 365 = 4.2 MB/year
+* Why keep use a Merkle tree?
 
-### 2. Preventing Double-spending
-* The only way is to be aware of all transactions.
-* Each node (miner) verifies that this is the first spending of the Bitcoin by the payer.
-* Only when it is verified it generates the proof-of-work and attach it to the current chain. 
+### Simplified payment verification
+Any user can verify a transaction easily by asking a node. 
+First, get the longest proof-of-work chain
+Query the block that the transaction to be verified (tx3) is in.
+Only need Hash01 and Hash2 to verify; not the entire Tx’s.
+![Simplified payment verification]({{http://www.patternics.com}}/blockchain/image/payment.JPG)
+
+
 
 
 
