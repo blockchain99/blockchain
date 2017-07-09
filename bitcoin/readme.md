@@ -38,12 +38,15 @@ issuance rate.
 ### Creation of a virtual coin/note
  - How is it created in the first place?
  - How do you prevent inflation? (What prevents anyone from creating lots of coins?)
+ 
 ### Validation
  - Is the coin legit? (proof-of-work)
  - How do you prevent a coin from double-spending?
+ 
 ### Buyer and Seller protection in online transactions
  - Buyer pays, but the seller doesn’t deliver
  - Seller delivers, buyer pays, but the buyer makes a claim. 
+ 
 ### Trust on third-parties
  - Rely on proof instead of trust
  - Verifiable by everyone
@@ -53,13 +56,16 @@ issuance rate.
 ### Authentication
 * Am I paying the right person? Not some other impersonator? 
 * Solution : Public Key Crypto: Digital Signatures
+
 ### Integrity
 * Is the coin double-spent? 
 * Can an attacker reverse or change transactions?
 * Soulution : Digital Signatures and Cryptographic Hash
+
 ### Availability
 * Can I make a transaction anytime I want?
 * Solution : Broadcast messages to the P2P network
+
 ### Confidentiality
 * Are my transactions private? Anonymous? 
 * Solution : Pseudonymity
