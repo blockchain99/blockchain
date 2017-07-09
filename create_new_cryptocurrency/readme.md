@@ -109,7 +109,7 @@ contract TCoin{
 ''''
 
 ## Code for new Coin : Stage 3
-
+'''js
 pragma solidity 0.4.8;
 
 contract admined {
@@ -315,3 +315,4 @@ people send ether using this buy method.
         currentChallenge = sha3(nonce, currentChallenge, block.blockhash(block.number-1))  //hash of recently mined block, Save a hash that will be used as the next proof
     }
 }  
+''''
