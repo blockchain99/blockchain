@@ -36,13 +36,13 @@ issuance rate.
 
 ## What is the big Challenges for Bitcoin ?
 ### 1. Creation of a virtual coin/note
- - How is it created in the first place?
- - How do you prevent inflation? (What prevents anyone from creating lots of coins?)
- 
+ - How is it created in the first place? -> Solution : Provide incentives for miners
+ - How do you prevent inflation? (What prevents anyone from creating lots of coins?) -> Solution : Limit the creation rate of the BitCoins
+
 ### 2. Validation
- - Is the coin legit? (proof-of-work)
- - How do you prevent a coin from double-spending?
- 
+ - Is the coin legit? (proof-of-work) -> Solution : Use of Cryptographic Hashes
+ - How do you prevent a coin from double-spending? -> Solution : Broadcast to all nodes
+
 ### 3. Buyer and Seller protection in online transactions
  - Buyer pays, but the seller doesn’t deliver
  - Seller delivers, buyer pays, but the buyer makes a claim. 
@@ -71,19 +71,23 @@ issuance rate.
 * Solution : Pseudonymity
 
 ## How to validate the legitimacy of coin and prevent double spending?
-* Is the coin legit? (proof-of-work) ->  Use of Cryptographic Hashes
-#### Public Key Crypto: Digital Signature
+### 1. Is the coin legit? (proof-of-work) ->  Use of Cryptographic Hashes
+
 ![Key pair: public key and private key
 ]({{http://www.patternics.com}}/blockchain/image/encription.JPG)
-Key pair: public key and private key
+* Public Key Crypto: Digital Signature
+* Key pair: public key and private key
 
 ![First, create a message digest using a cryptographic hash Then, encrypt the message digest with your private key]({{http://www.patternics.com}}/blockchain/image/digital_sig.JPG)
-First, create a message digest using a cryptographic hash Then, encrypt the message digest with your private key
+* First, create a message digest using a cryptographic hash 
+* Then, encrypt the message digest with your private key
 
 ![Cryptographic Hash Functions]({{http://www.patternics.com}}/blockchain/image/collision_res.JPG)
-Cryptographic Hash Functions
-First, create a message digest using a cryptographic hash Then, encrypt the message digest with your private key
+#### * Bitcoin guarantee the legitimacy of coin (proof-of-work) by Cryptographic Hash Functions.
+* Consistent: hash(X) always yields same result
+* One-way: given Y, hard to find X s.t. hash(X) = Y 
+* Collision resistant: given hash(W) = Z, hard to find X such that hash(X) = Z 
 
-* How do you prevent a coin from double-spending? -> Broadcast to all nodes
-
+### 2. How do you prevent a coin from double-spending? -> Broadcast to all nodes
+#### Bitcoin prevent the double-spending by Broadcasting to all nodes.
 
