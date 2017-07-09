@@ -91,5 +91,5 @@ issuance rate.
 * Collision resistant: given hash(W) = Z, hard to find X such that hash(X) = Z 
 
 ### 2. How do you prevent a coin from double-spending? -> Broadcast to all nodes
-#### Bitcoin prevent the double-spending by Broadcasting to all nodes.
+#### * Bitcoin prevent the double-spending by Broadcasting to all nodes.
 
