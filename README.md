@@ -58,7 +58,7 @@ miners using a contract etc.
 
 ## [Making New Cryptocurrency using Ethereum Blockchain and SOLIDITY](http://www.patternics.com/blockchain/create_new_cryptocurrency)
 
-
+## [Smart Contract programming using Ethereum SOLIDITY](http://www.patternics.com/blockchain/smart_contract)
 
 
 ## Installation and usage
