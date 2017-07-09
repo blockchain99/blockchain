@@ -8,14 +8,12 @@ contract Coin {
     * @dev This is only for demo the simple Coin example
     * 
     */
-
     address public minter;
     uint public totalCoins;
 
-    event LogCoinsMinted(address deliveredTo, uint amount);
-    event LogCoinsSent(address sentTo, uint amount);
+    event LogCoinsMinted(address indexed deliveredTo, uint indexed amount);  // data or variable will be stored in the log not data
+    event LogCoinsSent(address sentTo, uint amount);   // stored in data part of log
 
-    
     mapping (address => uint) balances;
     function Coin(uint initialCoins) {
         minter = msg.sender;
