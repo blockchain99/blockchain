@@ -111,6 +111,7 @@ contract TCoin{
 ## Code for new Coin : Stage 3
 
 pragma solidity 0.4.8;
+
 contract admined {
     address public admin;
 
@@ -129,15 +130,20 @@ contract admined {
 }
 
 contract TCoin{
-    mapping (address=>unit256) public balanceOf;
-    //balanceOf[address] = 5;
+    mapping (address=>unit256) public balanceOf; //balanceOf[address] = 5;
+
     mapping (address => (address => uint256)) public allowance;  // i autorized my friend( address), ceratain amount of money to use.
+
     string public standard  = "TCoin v1.0";
+
     string public name;
+
     string public symbol;
+
     uint8 public decimal; //1.23, 1.567
-    uint256 public totalSupply;
-    // help to log trasfering data
+
+    uint256 public totalSupply;// help to log trasfering data
+
     event Transfer(address indexed from, address indexed to, uint256 value); //store in log memory not contract data
 
     function TCoin(uint256 initialSupply, string tokenName, string tokenSymbol, uint8 deimalUnits) {
@@ -190,6 +196,7 @@ contract TCoinAdvanced is admined, TCoin{
     uint256 minimunBalanceForAccounts = 5 finney;
     uint256 public sellPrice;
     uint256 public buyPrice;
+
 // freeze (not allowed to transfer fund) or unfreeze the coins of anyone's account   
 
     mapping (address => bool) public frozenAccount;
@@ -291,10 +298,11 @@ people send ether using this buy method.
     bytes32 public currentChallenge;    // The coin starts with a challenge
 
     uint public timeOfLastProof;        // Variable to keep track of when rewards were given
-    
+
     uint public difficulty = 10**32;
 
 //PoW algorithm is to ensure that only the decided number of blocks are made in a time frame and we adjust difficulty accordingly.
+
     function proofOfWork(uint nonce){
         bytes8 n = bytes8(sha3(nonce, currentChallenge));  // Generate a random hash(currentChallenge) based on input
         if(n < bytes8(difficulty)) throw;
@@ -307,5 +315,3 @@ people send ether using this buy method.
         currentChallenge = sha3(nonce, currentChallenge, block.blockhash(block.number-1))  //hash of recently mined block, Save a hash that will be used as the next proof
     }
 }  
-
-
