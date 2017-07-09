@@ -93,3 +93,13 @@ issuance rate.
 ### 2. How do you prevent a coin from double-spending? -> Broadcast to all nodes
 #### * Bitcoin prevent the double-spending by Broadcasting to all nodes.
 
+
+* Acknowledgement : 
+Some of the slides, content, or pictures are borrowed from the following resources, and some pictures are obtained through Google search without being referenced below:
+-L24-BitCoin and Security, many of the slides borrowed from this presentation with modifications. 
+
+-Ian Miers, Zerocoin: Anonymous Distributed E-Cash from Bitcoin, IEE S&P slides
+
+-Amir Houmansadr, CS660: Advanced Information Assurance Spring 2015
+
+
