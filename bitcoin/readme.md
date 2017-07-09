@@ -35,8 +35,8 @@ currency is deflationary. Furthermore, bitcoin cannot be inflated by "printing" 
 issuance rate.
 
 ## BitCoin: Challenges
-* Creation of a virtual coin/note
-**  How is it created in the first place?
+* ### Creation of a virtual coin/note
+ - How is it created in the first place?
  - How do you prevent inflation? (What prevents anyone from creating lots of coins?)
 * Validation
  - Is the coin legit? (proof-of-work)
