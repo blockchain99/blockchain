@@ -17,10 +17,19 @@ each user.
 
 * Bitcoin is a distributed, peer‐to‐peer system. As such there is no "central" server or point of control. Bitcoin are created
 through a process called "mining," which involves competing to find solutions to a mathematical problem while processing
-bitcoin transactions. Any participant in the bitcoin network ﴾i.e., anyone using a device running the full bitcoin protocol stack﴿
+bitcoin transactions.
+
+*  Any participant in the bitcoin network ﴾i.e., anyone using a device running the full bitcoin protocol stack﴿
 may operate as a miner, using their computer’s processing power to verify and record transactions. Every 10 minutes on
 average, someone is able to validate the transactions of the past 10 minutes and is rewarded with brand new bitcoin.
 Essentially, bitcoin mining decentralizes the currency‐issuance and clearing functions of a central bank and replaces the need
 for any central bank with this global competition.
 
-
+* The bitcoin protocol includes built‐in algorithms that regulate the mining function across the network. The difficulty of the
+processing task that miners must perform is adjusted dynamically so that, on average, someone succeeds every 10 minutes
+regardless of how many miners ﴾and how much processing﴿ are competing at any moment. The protocol also halves the rate
+at which new bitcoin are created every four years, and limits the total number of bitcoin that will be created to a fixed total
+just below 21 million coins. The result is that the number of bitcoin in circulation closely follows an easily predictable curve
+that approaches 21 million by the year 2140. Due to bitcoin’s diminishing rate of issuance, over the long term, the bitcoin
+currency is deflationary. Furthermore, bitcoin cannot be inflated by "printing" new money above and beyond the expected
+issuance rate.
