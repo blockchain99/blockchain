@@ -1,10 +1,10 @@
 ## What is Bitcoin?
 ### Bitcoin is Internet of money, a network for propagating value and securing the ownership of digital assets via distributed computation. 
 ###  Bitcoin consists of:
-#### A decentralized peer‐to‐peer network ﴾the bitcoin protocol﴿
-#### A public transaction ledger ﴾the blockchain﴿
-#### A set of rules for independent transaction validation and currency issuance ﴾consensus rules﴿
-#### A mechanism for reaching global decentralized consensus on the valid blockchain ﴾proof‐of‐work algorithm﴿
+#### * A decentralized peer‐to‐peer network ﴾the bitcoin protocol﴿
+#### * A public transaction ledger ﴾the blockchain﴿
+#### * A set of rules for independent transaction validation and currency issuance ﴾consensus rules﴿
+#### * A mechanism for reaching global decentralized consensus on the valid blockchain ﴾proof‐of‐work algorithm﴿
 
 * Bitcoin Users can transfer bitcoin over the network to do just about anything that can be done with conventional currencies, including buy and sell goods, send money to people or organizations, or extend credit. Bitcoin can be purchased, sold, and exchanged for other currencies at specialized currency exchanges.
 
