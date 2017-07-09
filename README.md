@@ -60,6 +60,7 @@ miners using a contract etc.
 
 ## [Smart Contract programming using Ethereum SOLIDITY](http://www.patternics.com/blockchain/smart_contract)
 
+## [Bitcoin concept and programming](http://www.patternics.com/blockchain/bitcoin)
 
 ## Installation and usage
 Program is written in java, solidity. it one may need solidity shoulde be installed ( https://docs.continuum.io/anaconda/install ) or install python 2.7 and then install Numpy, Scipy, Pandas, matplotlib,jupyter manually as follows.
