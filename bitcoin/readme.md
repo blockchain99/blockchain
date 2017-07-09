@@ -125,7 +125,6 @@ issuance rate.
 
 
 
-* 
 
 * Acknowledgement : 
 Some of the slides, content, or pictures are borrowed from the following resources, and some pictures are obtained through Google search without being referenced below:
