@@ -34,7 +34,7 @@ that approaches 21 million by the year 2140. Due to bitcoin’s diminishing rate
 currency is deflationary. Furthermore, bitcoin cannot be inflated by "printing" new money above and beyond the expected
 issuance rate.
 
-## BitCoin: Challenges
+## What is the big Challenges for Bitcoin ?
 ### Creation of a virtual coin/note
  - How is it created in the first place?
  - How do you prevent inflation? (What prevents anyone from creating lots of coins?)
@@ -48,3 +48,31 @@ issuance rate.
  - Rely on proof instead of trust
  - Verifiable by everyone
  - No central bank or clearing house
+
+## How to guarantee the sucure Bitcoin transaction?
+### Authentication
+* Am I paying the right person? Not some other impersonator? 
+* Solution : Public Key Crypto: Digital Signatures
+### Integrity
+* Is the coin double-spent? 
+* Can an attacker reverse or change transactions?
+* Soulution : Digital Signatures and Cryptographic Hash
+### Availability
+* Can I make a transaction anytime I want?
+* Solution : Broadcast messages to the P2P network
+### Confidentiality
+* Are my transactions private? Anonymous? 
+* Solution : Pseudonymity
+
+## Bitcoin mechaniam to validate the legitimacy of coin and preventing double spending
+* Is the coin legit? (proof-of-work) ->  Use of Cryptographic Hashes
+#### Public Key Crypto: Digital Signature
+
+
+First, create a message digest using a cryptographic hash Then, encrypt the message digest with your private key
+
+
+* How do you prevent a coin from double-spending? -> Broadcast to all nodes
+
+
+
