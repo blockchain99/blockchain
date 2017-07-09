@@ -119,6 +119,7 @@ issuance rate.
 * Anyone can follow the history fo bitcoin transaction.
 
 ### Reverting gets exponentially hard as the chain grows.
+
 ![Tie breaking]({{http://www.patternics.com}}/blockchain/image/reverting.JPG)
 
 ### Practical Limitation : At least 10 mins to verify a transaction. 
