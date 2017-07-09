@@ -2,21 +2,21 @@
 
 [5 - Basics of Solidity By Example](./Coin.sol)
 
-6 - Layout of Solidity Source File
+[6 - Layout of Solidity Source File](./layout.sol)
 
-7 - General Value Types
+[7 - General Value Types](ValueTypes.sol)
 
-8 - Ether Units, Time Units
+[8 - Ether Units, Time Units](units_my.sol)
 
-9 - Global Variables & Functions
+[9 - Global Variables & Functions](GlobalVariablesAndFunctions.sol)
 
-10 - Operators - Arithmatic, Logical & Bitwise
+[10 - Operators - Arithmatic, Logical & Bitwise](Operators.sol)
 
-11 - Control Structures
+[11 - Control Structures](ControlStructure.sol)
 
-12 - Scoping & Declaration
+[12 - Scoping & Declaration](Scoping.sol)
 
-13 - Input & Output Parameters
+[13 - Input & Output Parameters](InputAndOutputParameters.sol)
 
 14 - Function Calls
 
