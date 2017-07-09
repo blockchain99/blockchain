@@ -113,9 +113,8 @@ contract TCoin{
 
 pragma solidity 0.4.8;
 
-contract admined {
+contract admined { 
     address public admin;
-
     function admined() {
         admin = msg.sender;
     }
@@ -189,9 +188,9 @@ contract TCoin{
     }
 }
 
-/* since we don't want contract TCoin inherite from   (such as : "contract TCoin is admined")
- but we do not want modigy TCoin , so make new contract. 
- merge into TCoinAdvanced from admined, TCoin  */
+// since we don't want contract TCoin inherite from   (such as : "contract TCoin is admined")
+// but we do not want modigy TCoin , so make new contract. 
+// merge into TCoinAdvanced from admined, TCoin  
 
 contract TCoinAdvanced is admined, TCoin{
     uint256 minimunBalanceForAccounts = 5 finney;
@@ -261,21 +260,18 @@ contract TCoinAdvanced is admined, TCoin{
         buyPrice = newBuyPrice;
     }
 
-/*
-People specify how much buy TCoin using ether they sending by buy function.
-user(executer, meg.sender) sendt ether to smartcontract, smartcontract take ether and then send TCoin in it's pocket to buyer's account
-people send ether using this buy method. 
- wei (specifically msg.value):The base unit for currency in Solidity is Wei. you can specify units explicitly: wei, finney, szabo and ether.
-1. contracts should store balances in wei (to avoid division and rounding inaccuracies)
-2. contracts should keep computation to a minimum (since paying a miner is much more expensive than performing the same computation locally)
-3. data conversions are an example of computation that should be done by the frontend locally (instead of by a contract on the blockchain) 
- msg.value/(1 ether) - convert TCoin to ether  
- */
+// People specify how much buy TCoin using ether they sending by buy function.
+//user(executer, meg.sender) sendt ether to smartcontract, smartcontract take ether and then send TCoin in it's pocket to buyer's account
+//people send ether using this buy method. 
+// wei (specifically msg.value):The base unit for currency in Solidity is Wei. you can specify units explicitly: wei, finney, szabo and ether.
+//1. contracts should store balances in wei (to avoid division and rounding inaccuracies)
+//2. contracts should keep computation to a minimum (since paying a miner is much more expensive than performing the same computation locally)
+//3. data conversions are an example of computation that should be done by the frontend locally (instead of by a contract on the blockchain) 
+//  msg.value/(1 ether) - convert TCoin to ether  
 
     function buy() payble {   // smartcontract(seller) 
         uint256 amount = (msg.value/(1 ether))/buyPrice;
-        if(balanceOf[this] < amount) throw; 
-        //check whether smartcotract has enough TCoin to sell ,ex)sarmtcontract try to sell 5 Tcoins,but smartcontract has only 1 TCoin 
+        if(balanceOf[this] < amount) throw; //check whether smartcotract has enough TCoin to sell ,ex)sarmtcontract try to sell 5 Tcoins,but smartcontract has only 1 TCoin 
         balanceOf[msg.sender] += amount;  //sender's balance
         balanceOf[this] -= amount; //smartcotract's balance
         Transfer(this, msg.sender, amount);
@@ -295,7 +291,6 @@ people send ether using this buy method.
     }
 
     // in order to give ethereum to the minder mined new block , we need to generate address of the block for the minder.
-    
     function giveBlockreward(){
         balanceOf[block.coinbase] += 1;  //block.coinbase: the adress of miner who just minded new block
     }
@@ -320,4 +315,5 @@ people send ether using this buy method.
         currentChallenge = sha3(nonce, currentChallenge, block.blockhash(block.number-1))  //hash of recently mined block, Save a hash that will be used as the next proof
     }
 }  
+ 
 ''''
