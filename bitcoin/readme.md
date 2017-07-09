@@ -56,11 +56,20 @@ issuance rate.
 ### 1. Authentication
 * Am I paying the right person? Not some other impersonator? 
 * Solution : Public Key Crypto: Digital Signatures
+![Key pair: public key and private key
+]({{http://www.patternics.com}}/blockchain/image/encription.JPG)
+* Public Key Crypto: Digital Signature
+* Key pair: public key and private key
 
 ### 2. Integrity
 * Is the coin double-spent? 
 * Can an attacker reverse or change transactions?
 * Soulution : Digital Signatures and Cryptographic Hash
+![First, create a message digest using a cryptographic hash Then, encrypt the message digest with your private key]({{http://www.patternics.com}}/blockchain/image/digital_sig.JPG)
+* First, create a message digest using a cryptographic hash 
+![Cryptographic Hash Functions]({{http://www.patternics.com}}/blockchain/image/collision_res.JPG)
+* Then, encrypt the message digest with your private key
+
 
 ### 3. Availability
 * Can I make a transaction anytime I want?
@@ -73,14 +82,7 @@ issuance rate.
 ## How to validate the legitimacy of coin and prevent double spending?
 ### 1. Is the coin legit? (proof-of-work) ->  Use of Cryptographic Hashes
 
-![Key pair: public key and private key
-]({{http://www.patternics.com}}/blockchain/image/encription.JPG)
-* Public Key Crypto: Digital Signature
-* Key pair: public key and private key
 
-![First, create a message digest using a cryptographic hash Then, encrypt the message digest with your private key]({{http://www.patternics.com}}/blockchain/image/digital_sig.JPG)
-* First, create a message digest using a cryptographic hash 
-* Then, encrypt the message digest with your private key
 
 ![Cryptographic Hash Functions]({{http://www.patternics.com}}/blockchain/image/collision_res.JPG)
 #### * Bitcoin guarantee the legitimacy of coin (proof-of-work) by Cryptographic Hash Functions.
