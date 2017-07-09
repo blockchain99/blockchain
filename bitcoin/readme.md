@@ -33,3 +33,18 @@ just below 21 million coins. The result is that the number of bitcoin in circula
 that approaches 21 million by the year 2140. Due to bitcoin’s diminishing rate of issuance, over the long term, the bitcoin
 currency is deflationary. Furthermore, bitcoin cannot be inflated by "printing" new money above and beyond the expected
 issuance rate.
+
+## BitCoin: Challenges
+* Creation of a virtual coin/note
+- How is it created in the first place?
+- How do you prevent inflation? (What prevents anyone from creating lots of coins?)
+* Validation
+- Is the coin legit? (proof-of-work)
+- How do you prevent a coin from double-spending?
+* Buyer and Seller protection in online transactions
+- Buyer pays, but the seller doesn’t deliver
+- Seller delivers, buyer pays, but the buyer makes a claim. 
+* Trust on third-parties
+- Rely on proof instead of trust
+- Verifiable by everyone
+- No central bank or clearing house
