@@ -33,7 +33,7 @@ Solidity Programming Language.
 
 
 ## Code for new Coin : stage 1
-''js
+
 pragma solidity 0.4.8;
 contract TCoin{
 
@@ -50,7 +50,7 @@ contract TCoin{
 
     }
 }
-''''
+
 
 ## Code for new Coin : Stage 2
 '''js
