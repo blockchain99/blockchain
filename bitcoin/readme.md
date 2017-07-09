@@ -35,51 +35,53 @@ currency is deflationary. Furthermore, bitcoin cannot be inflated by "printing" 
 issuance rate.
 
 ## What is the big Challenges for Bitcoin ?
-### Creation of a virtual coin/note
+### 1. Creation of a virtual coin/note
  - How is it created in the first place?
  - How do you prevent inflation? (What prevents anyone from creating lots of coins?)
  
-### Validation
+### 2. Validation
  - Is the coin legit? (proof-of-work)
  - How do you prevent a coin from double-spending?
  
-### Buyer and Seller protection in online transactions
+### 3. Buyer and Seller protection in online transactions
  - Buyer pays, but the seller doesn’t deliver
  - Seller delivers, buyer pays, but the buyer makes a claim. 
  
-### Trust on third-parties
+### 4. Trust on third-parties
  - Rely on proof instead of trust
  - Verifiable by everyone
  - No central bank or clearing house
 
 ## How to guarantee the sucure Bitcoin transaction?
-### Authentication
+### 1. Authentication
 * Am I paying the right person? Not some other impersonator? 
 * Solution : Public Key Crypto: Digital Signatures
 
-### Integrity
+### 2. Integrity
 * Is the coin double-spent? 
 * Can an attacker reverse or change transactions?
 * Soulution : Digital Signatures and Cryptographic Hash
 
-### Availability
+### 3. Availability
 * Can I make a transaction anytime I want?
 * Solution : Broadcast messages to the P2P network
 
-### Confidentiality
+### 4. Confidentiality
 * Are my transactions private? Anonymous? 
 * Solution : Pseudonymity
 
 ## Bitcoin mechaniam to validate the legitimacy of coin and preventing double spending
 * Is the coin legit? (proof-of-work) ->  Use of Cryptographic Hashes
 #### Public Key Crypto: Digital Signature
-[Key pair: public key and private key
+![Key pair: public key and private key
 ]({{http://www.patternics.com}}/blockchain/image/encription.JPG)
+Key pair: public key and private key
 
-[First, create a message digest using a cryptographic hash Then, encrypt the message digest with your private key]({{http://www.patternics.com}}/blockchain/image/digital_sig.JPG)
+![First, create a message digest using a cryptographic hash Then, encrypt the message digest with your private key]({{http://www.patternics.com}}/blockchain/image/digital_sig.JPG)
+First, create a message digest using a cryptographic hash Then, encrypt the message digest with your private key
 
-[Cryptographic Hash Functions]({{http://www.patternics.com}}/blockchain/image/collision_res.JPG)
-
+![Cryptographic Hash Functions]({{http://www.patternics.com}}/blockchain/image/collision_res.JPG)
+Cryptographic Hash Functions
 First, create a message digest using a cryptographic hash Then, encrypt the message digest with your private key
 
 * How do you prevent a coin from double-spending? -> Broadcast to all nodes
