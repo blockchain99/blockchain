@@ -1,5 +1,4 @@
 ## Ethreum Smart contract programming with SOLIDITY
-### Programming index is as follows.
 
 5 - Basics of Solidity By Example
 
