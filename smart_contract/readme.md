@@ -18,27 +18,27 @@
 
 [13 - Input & Output Parameters](InputAndOutputParameters.sol)
 
-14 - Function Calls
+[14 - Function Calls](FunctionCall.sol)
 
-15 - Function Modifiers
+[15 - Function Modifiers](FunctionModifiers.sol)
 
-16 - Fallback Function
+[16 - Fallback Function](fallback.sol)
 
-17 - Abstract Contracts
+[17 - Abstract Contracts](AbstractContracts.sol)
 
-18 - Creating Contracts via new Operator
+[18 - Creating Contracts via new Operator](new.sol)
 
-19 - Inheriting Smart Contratcs
+[19 - Inheriting Smart Contratcs](Inheritance.sol)
 
-20 - Importing Smart Contracts
+[20 - Importing Smart Contracts](Import.sol)
 
-21 - Events & Logging
+[21 - Events & Logging](Coin.sol)
 
-22 - Exceptions
+[22 - Exceptions](Exceptions.sol)
 
-23 - Complete Example - CrowdFunder Smart Contract
+[23 - Complete Example - CrowdFunder Smart Contract](CrowdFunder.sol)
 
-24 - Complete Example - Voting Ballot Smart Contract
+[24 - Complete Example - Voting Ballot Smart Contract](Ballot.sol)
 
 
 
