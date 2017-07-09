@@ -36,15 +36,15 @@ issuance rate.
 
 ## BitCoin: Challenges
 * Creation of a virtual coin/note
-- How is it created in the first place?
-- How do you prevent inflation? (What prevents anyone from creating lots of coins?)
+ - How is it created in the first place?
+ - How do you prevent inflation? (What prevents anyone from creating lots of coins?)
 * Validation
-- Is the coin legit? (proof-of-work)
-- How do you prevent a coin from double-spending?
+ - Is the coin legit? (proof-of-work)
+ - How do you prevent a coin from double-spending?
 * Buyer and Seller protection in online transactions
-- Buyer pays, but the seller doesn’t deliver
-- Seller delivers, buyer pays, but the buyer makes a claim. 
+ - Buyer pays, but the seller doesn’t deliver
+ - Seller delivers, buyer pays, but the buyer makes a claim. 
 * Trust on third-parties
-- Rely on proof instead of trust
-- Verifiable by everyone
-- No central bank or clearing house
+ - Rely on proof instead of trust
+ - Verifiable by everyone
+ - No central bank or clearing house
