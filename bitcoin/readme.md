@@ -67,7 +67,12 @@ issuance rate.
 ## Bitcoin mechaniam to validate the legitimacy of coin and preventing double spending
 * Is the coin legit? (proof-of-work) ->  Use of Cryptographic Hashes
 #### Public Key Crypto: Digital Signature
+[Key pair: public key and private key
+]({{http://www.patternics.com}}/blockchain/image/encription.JPG)
 
+[First, create a message digest using a cryptographic hash Then, encrypt the message digest with your private key]({{http://www.patternics.com}}/blockchain/image/digital_sig.JPG)
+
+[Cryptographic Hash Functions]({{http://www.patternics.com}}/blockchain/image/collision_res.JPG)
 
 First, create a message digest using a cryptographic hash Then, encrypt the message digest with your private key
 
