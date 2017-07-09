@@ -108,15 +108,16 @@ issuance rate.
 5. Nodes accept the block only if all transactions in it are valid (digital signature checking) and not already spent (check all the transactions).
 6. Nodes express their acceptance by working on creating the next block in the chain, using the hash of the accepted block as the previous hash. 
 ![Bitcoin transaction]({{http://www.patternics.com}}/blockchain/image/bit_tr2.JPG)
+
 ### What if "Tie breaking"(two nodes find a correct block simultaneously.)
 * Tie breaking situation : Two different block chains (or blocks) may satisfy the required proof-of-work.
 ![Tie breaking]({{http://www.patternics.com}}/blockchain/image/tie_b.JPG)
 * Solution : Keep both and work on the first one. If one grows longer than the other, take the longer one
-
 * Electronic coin == chain of digital signatures
 * BitCoin transfer: Sign(Previous transaction + New owner’s public key)
 * Anyone can verify (n-1)th owner transferred this to the nth owner. 
 * Anyone can follow the history fo bitcoin transaction.
+
 ### Reverting gets exponentially hard as the chain grows.
 ![Tie breaking]({{http://www.patternics.com}}/blockchain/image/reverting.JPG)
 
