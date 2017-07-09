@@ -94,6 +94,39 @@ issuance rate.
 #### * Bitcoin prevent the double-spending by Broadcasting to all nodes.
 
 
+##Bitcoin transaction explained
+![Bitcoin transaction]({{http://www.patternics.com}}/blockchain/image/bit_tr2.JPG)
+1. New transactions are broadcast to all nodes.
+2. Each node (miners) collects new transactions into a block.
+3. Each node works on finding a proof-of-work for its block. (Hard to do. Probabilistic. The one to finish early will probably win.)
+4. When a node finds a proof-of-work, it broadcasts the block to all nodes.
+5. Nodes accept the block only if all transactions in it are valid (digital signature checking) and not already spent (check all the transactions).
+6. Nodes express their acceptance by working on creating the next block in the chain, using the hash of the accepted block as the previous hash. 
+
+![Bitcoin transaction]({{http://www.patternics.com}}/blockchain/image/bit_tr.JPG)
+
+* Electronic coin == chain of digital signatures
+* BitCoin transfer: Sign(Previous transaction + New owner’s public key)
+* Anyone can verify (n-1)th owner transferred this to the nth owner. 
+* Anyone can follow the history fo bitcoin transaction.
+
+
+###1. Use of Cryptographic Hashes as Proof-Of-Work
+* We can find transactions validated and previous hash value in Block.
+* Pick a nouce such that H(prev hash, nounce, Tx) < E. E is a variable that the system specifies. Basically, this amounts to finding a hash value who’s leading bits are zero. The work required is exponential in the number of zero bits required.
+* Verification is easy. But proof-of-work is hard. 
+!Proof-Of-Work]({{http://www.patternics.com}}/blockchain/image/pow.JPG)
+
+### 2. Preventing Double-spending
+* The only way is to be aware of all transactions.
+* Each node (miner) verifies that this is the first spending of the Bitcoin by the payer.
+* Only when it is verified it generates the proof-of-work and attach it to the current chain. 
+
+
+
+
+* 
+
 * Acknowledgement : 
 Some of the slides, content, or pictures are borrowed from the following resources, and some pictures are obtained through Google search without being referenced below:
 -L24-BitCoin and Security, many of the slides borrowed from this presentation with modifications. 
