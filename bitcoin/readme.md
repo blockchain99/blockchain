@@ -151,7 +151,7 @@ Only need Hash01 and Hash2 to verify; not the entire Tx’s.
 
 
 
-* Acknowledgement : 
+> Acknowledgement : 
 Some of the slides, content, or pictures are borrowed from the following resources, and some pictures are obtained through Google search without being referenced below:
 -L24-BitCoin and Security, many of the slides borrowed from this presentation with modifications. 
 -Ian Miers, Zerocoin: Anonymous Distributed E-Cash from Bitcoin, IEE S&P slides
