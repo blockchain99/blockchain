@@ -76,8 +76,6 @@ issuance rate.
 
 First, create a message digest using a cryptographic hash Then, encrypt the message digest with your private key
 
-
 * How do you prevent a coin from double-spending? -> Broadcast to all nodes
-
 
 
