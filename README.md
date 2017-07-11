@@ -56,6 +56,8 @@ miners using a contract etc.
 * Contract-specific features include modifier (guard) clauses, event notifiers for listeners, and custom global variables.
 * Solidity is compiled to bytecode that is executable on the EVM
 
+## Click following link for further learning !
+
 ## [Making New Cryptocurrency using Ethereum Blockchain and SOLIDITY](http://www.patternics.com/blockchain/create_new_cryptocurrency)
 
 ## [Smart Contract programming using Ethereum SOLIDITY](http://www.patternics.com/blockchain/smart_contract)
