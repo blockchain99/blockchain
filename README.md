@@ -83,8 +83,8 @@ We provide up to date docker builds for the compiler. The stable repository cont
 
 > docker run ethereum/solc:stable solc --version
 
-> Acknowledgement : Some images and articles are from other sites or materials: Toshendra Sharma : Ethereum development,
-Rafael pass : a Course in Cryptography, Arvind Narayanan, Joseph Bonneau, :   Bitcoin and Cryptocurrency Technologies
+> Acknowledgement : Some images and articles are from other sites or materials - Toshendra Sharma : Ethereum development,
+Rafael pass : a Course in Cryptography, Arvind Narayanan, Joseph Bonneau : Bitcoin and Cryptocurrency Technologies,
 Ravinder Deol : Ethereum Blockchain
 
 ### Meta
