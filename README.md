@@ -16,7 +16,7 @@ Also, we can detect the alteration of contents of specific page through page num
 >If anyone changes the content of the page,  then the next page number will not match. 
 >since the page number is produced by crunching the content of the previous page.    
 
-![Blocks Detailed]({{http://www.patternics.com}}/blockchain/image/bl2.JPG)
+![Blocks Detailed](./image/bl2.JPG)
 
 Blockchain is in same shooses, each block is built on top of the recent block and use its
 previous block’s content as a signature. Building a block & adding it in the Blockchain is the task of the miner nodes
