@@ -1,6 +1,6 @@
 ## Ethreum Smart contract programming with SOLIDITY
 
-[5 - Basics of Solidity By Example](./Coin.sol)
+[5 - Basics of Solidity By Example](./Coin.sol){:target="_blank"}
 
 [6 - Layout of Solidity Source File](./layout.sol)
 
