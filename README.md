@@ -18,7 +18,7 @@ Also, we can detect the alteration of contents of specific page through page num
 
 ![Blocks Detailed](./image/bl2.JPG)
 
-Blockchain is in same shoses, each block is built on top of the recent block and use its
+Blockchain is in same shoes, each block is built on top of the recent block and use its
 previous block’s content as a signature. Building a block & adding it in the Blockchain is the task of the miner nodes
 
 * In public Blockchain it is made computationally difficult to add a block to prevent
