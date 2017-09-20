@@ -44,7 +44,7 @@ miners using a contract etc.
 * It allows user to create their own operations
 * Ethereum in the narrow sense refers to a suite of protocols that define a platform for decentralized applications.
 * At the heart of it is the Ethereum Virtual Machine (“EVM”), which can execute code of arbitrary algorithmic complexity.
-* In computer science terms, Ethereum is “Turing complete”.
+* In computer science terms, Ethereum is [“Turing complete”](https://www.quora.com/What-is-meant-by-Turing-complete-languages-and-which-programming-languages-comes-under-this).
 * Developers can create applications that run on the EVM using friendly programming languages modelled on existing languages like JavaScript and Python.
 
 ### What is SOLIDITY?
