@@ -7,8 +7,8 @@ Suppose that we have a book, in which each page make reference for the previous 
 
 | Book Ordering | Block Ordering |
 |--------------|---------------|
-| Page 1,2,3,4,5 | Block "k98ugO" built on "48m775",<br> Block "m448utO" built on "88m795",<br> Block "5l8ugO" built on "87m885" | 
-| Implicit that the page builds on the pages whose Number is one less(page 5 builds on page 4)(5 minus 1) | "48m775", "88m795", "87m885" represent fingerprints or hashes of the blocks.  | 
+| Page 1,2,3,4,5 | Block "88m795" built on "48m775",<br> Block "87m885" built on "88m795",<br> Block "5l8ugO" built on "87m885" | 
+| Implicit that the page builds on the pages whose Number is one less(page 5 builds on page 4)(5 minus 1) | "48m775", "88m795", "87m885", "5l8ugO" represent fingerprints or hashes of the blocks.  | 
 
 ![Blocks in chain refer to previous blocks like books](./image/bl1.JPG)
 
