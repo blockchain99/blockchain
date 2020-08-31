@@ -58,11 +58,11 @@ miners using a contract etc.
 
 ## Click following link for further learning !
 
-## [Making New Cryptocurrency using Ethereum Blockchain and SOLIDITY](http://www.patternics.com/blockchain/create_new_cryptocurrency)
+## [Making New Cryptocurrency using Ethereum Blockchain and SOLIDITY](http://www.teraedu.com/blockchain/create_new_cryptocurrency)
 
-## [Smart Contract programming using Ethereum SOLIDITY](http://www.patternics.com/blockchain/smart_contract)
+## [Smart Contract programming using Ethereum SOLIDITY](http://www.teraedu.com/blockchain/smart_contract)
 
-## [Bitcoin concept and programming](http://www.patternics.com/blockchain/bitcoin)
+## [Bitcoin concept and programming](http://www.teraedu.com/blockchain/bitcoin)
 
 ## Installation and usage
 Program is written in java, solidity. it one may need solidity shoulde be installed ( https://docs.continuum.io/anaconda/install ) or install python 2.7 and then install Numpy, Scipy, Pandas, matplotlib,jupyter manually as follows.
